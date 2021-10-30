@@ -3,7 +3,7 @@ import scr.main.java.model;
 
 public class Palindromo {
 
-    public boolean ehPalindromo(String frase) {
+    public boolean ePalindromo(String frase) {
 
         String fraseFiltrada = frase
                 .toUpperCase().replace(" ", "").replace("-", "");
